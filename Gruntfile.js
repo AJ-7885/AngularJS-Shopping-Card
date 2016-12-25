@@ -1,8 +1,4 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/*! Author : AJ @MavajSunCo  23-DEC-2016 */
 module.exports = function (grunt) {
     // Project configuration.
     grunt.initConfig({
@@ -15,7 +11,7 @@ module.exports = function (grunt) {
     uglify: {
       my_target: {
         files: {
-          '_/js/claimpartner.js': ['_/components/js/*.js','_/components/js/modules/*.js']
+          '_/js/app.js': ['_/components/js/*.js','_/components/js/modules/*.js']
         } //files
       } //my_target
     }, //uglify
