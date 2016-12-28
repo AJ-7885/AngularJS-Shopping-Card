@@ -1,0 +1,10 @@
+/*! Author : AJ @MavajSunCo  13-DEC-2016 */
+
+// Position
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+    position: $position;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+}

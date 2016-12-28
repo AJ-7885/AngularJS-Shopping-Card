@@ -1,0 +1,7 @@
+/*! Author : AJ @MavajSunCo  13-DEC-2016 */
+
+// Background
+@mixin bg($position) {
+    background-size: cover !important;
+    background-position: $position !important;
+}

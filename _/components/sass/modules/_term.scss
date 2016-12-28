@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 26, 2016, 5:06:08 AM
+    Author     : master
+*/
+
+
+//colors
+$color_zest_approx: #f18713;
+$color_mercury_approx: #e7e7e7;
+
+h1 {
+	font-size: 50px;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	color: $color_zest_approx;
+}
+a {
+	color: $color_zest_approx;
+	text-decoration: none;
+}
+.terms-content {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-color: $color_mercury_approx;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 0 40px 0;
+}
+.servicepages {
+	p {
+		font-weight: 300;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	&:last-of-type {
+		padding-bottom: 50px;
+	}
+}
+@media(min-width: 768px) {
+}
+@media(min-width: 992px) {
+	.jobs-full {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.jobs-section {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.terms-content {
+		width: 970px;
+	}
+}
+@media(min-width: 1200px) {
+	.terms-content {
+		width: 1170px;
+	}
+}
+@media(min-width: 769px) and(max-width: 992px) {
+	.terms-content {
+		width: 750px;
+	}
+}
+@media(max-width: 768px) {
+	.servicepages {
+		padding: 0 15px;
+	}
+	.terms-content h1 {
+		font-size: 29px;
+	}
+}
+.terms > tbody > tr > td > a {
+	//Instead of the line below you could use @include word-break($value)
+	word-break: break-all;
+}
