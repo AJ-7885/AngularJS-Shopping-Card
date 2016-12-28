@@ -1,0 +1,7 @@
+/*! Author : AJ @MavajSunCo  13-DEC-2016 */
+
+// Size
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}

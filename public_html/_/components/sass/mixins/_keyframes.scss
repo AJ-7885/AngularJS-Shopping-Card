@@ -1,0 +1,11 @@
+/*! Author : AJ @MavajSunCo  13-DEC-2016 */
+
+// Keyframes
+@mixin keyframes($keyframes) {
+    @-webkit-keyframes #{$keyframes} {
+        @content;
+    }
+    @keyframes #{$keyframes} {
+        @content;
+    }
+}

@@ -1,0 +1,10 @@
+/*! Author : AJ @MavajSunCo  13-DEC-2016 */
+
+// Container
+@mixin container {
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+    margin-right: auto;
+    margin-left: auto;
+    @include clearfix;
+}

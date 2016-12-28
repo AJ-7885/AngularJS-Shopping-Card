@@ -5,6 +5,11 @@
         <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
             <name>frontend-shopping-card-sample</name>
         </data>
+        <grunt-tasks xmlns="http://www.netbeans.org/ns/build-tool-tasks/1">
+            <workdir path="" showSimpleTasks="true">
+                <task index="0" name="Watch" options="" parameters="" tasks="watch"/>
+            </workdir>
+        </grunt-tasks>
         <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1"/>
     </configuration>
 </project>

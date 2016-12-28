@@ -1,0 +1,7 @@
+/*! Author : AJ @MavajSunCo  13-DEC-2016 */
+
+// Transform Origin
+@mixin transform-origin($origin) {
+    -webkit-transform-origin: $origin;
+    transform-origin: $origin;
+}
