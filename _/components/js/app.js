@@ -1,9 +1,12 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*! 
+ Created on : Dec 28, 2016, 10:20:28 PM
+ Author     : AJ (@MavajSunCo) MavajSunCo.com
  */
 
-console.log('application has been started...');
+/**
+ * Build main module
+ * */
 
-
+var sfApp = angular.module("smartFrog", []).run(function () {
+    console.log("Application has been started....!");
+});
