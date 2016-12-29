@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name": "Komplettlösung",
+        "description": "inkl. 24 Std. Video-Speicher",
+        "bundel": "10% Rabatt auf jede weitere IP Kamera",
+        "price": "4.95",
+        "type": "monthly",
+        "shipping": "0.00",
+        "isTopSeller":"true"
+    },
+    {
+        "id": "2",
+        "name": "Kamera-Paket",
+        "description": "inkl. 4 Std. Video-Speicher",
+        "bundel": "10% Rabatt auf jede weitere IP Kamera",
+        "price": "99",
+        "type": "once",
+        "shipping": "4.00",
+        "isTopSeller":"false"
+    }
+]

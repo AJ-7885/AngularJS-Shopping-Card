@@ -12,7 +12,6 @@
         {
         display: none;
     }
-
 }
 
 .btnPackageLeft{
@@ -79,6 +78,7 @@
     border-radius: 5px;
     margin-top:44px;
     margin-right: 30px;
+    display: block;
     @media  (max-width: 767px)
         {
         width: 100%; 
@@ -90,16 +90,19 @@
         {
         width: 250px; 
         margin-right: 20px;
+         display: block;
     }
     @media  (max-width: 1199px) and (min-width: 992px)
         {
         width: 323px; 
+        display: block;
 
     }
     @media  (min-width: 1200px)
         {
         width: 370px; 
         margin-right: 30px;
+        display: block;
     }
 
 
@@ -111,11 +114,18 @@
         {
         display:none;
     }
-
+     @media  (min-width: 768px)
+        {
+        display:block;
+    }
 }
 
 .package-left{
     @extend .package; 
+        @media  (min-width: 768px)
+        {
+        display:block;
+    }
 }
 
 .topSeller{

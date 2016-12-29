@@ -11,7 +11,7 @@ module.exports = function (grunt) {
     uglify: {
       my_target: {
         files: {
-          '_/js/app.js': ['_/components/js/*.js','_/components/js/modules/*.js']
+          'public_html/_/js/app.js': ['public_html/_/components/js/*.js']
         } //files
       } //my_target
     }, //uglify
@@ -25,12 +25,12 @@ module.exports = function (grunt) {
     watch: {
       options: { livereload: true },
       scripts: {
-        files: ['_/components/js/*.js'],
+        files: ['public_html/_/components/js/*.js'],
         tasks: ['uglify']
       }, //script
       sass: {
         sourcemap: 'auto',  
-        files: ['_/components/sass/*.scss'],
+        files: ['public_html/_/components/sass/*.scss'],
         tasks: ['compass:dev']
       }, //sass
       html: {
