@@ -1,0 +1,367 @@
+/* 
+    Created on : Dec 29, 2016, 2:05:10 AM
+    Author     : AJ (@MavajSunCo) MavajSunCo.com
+*/
+
+
+
+//--------------------------------------------------
+//  Shopping card section 
+
+.shopping-card,.checkout{
+    @media   (max-width: 1199px)
+        {
+        width:95%;
+        padding-left:5%;
+    }
+}
+
+.table-responsive{
+    margin-top: 50px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px; 
+    @media  (max-width: 767px)
+        {
+        margin-top: -50px;
+        border:none;
+    }//media-max-767
+
+    .shopping-card-list{
+
+        width: 100%;
+        font-size:20px;
+        line-height:22px;
+        thead{
+            height: 41px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            border-top-right-radius: 7px;
+            border-top-left-radius: 7px;
+            border-bottom: 1px solid $color-bone;
+            background: $color-gray-02;
+            .article{
+                width: 33.33%;
+                @media  (max-width: 991px) and (min-width:768)
+                    {
+                    width: 50%;
+                }//media-max-901-min-768
+            }//article
+            .details{
+                width: 33.33%;
+                @media  (max-width: 991px)
+                    {
+                    Display:none;
+                    width: 0%;
+                }//media-max-901-min-768
+            }//details
+            .pk-quantity{
+                width:12%;
+                @media  (max-width: 992px)
+                    {
+                    width:  8.33%;
+                }//media-max-992
+            }//pk-quantity
+            .prices{
+                width: 25%;
+            }//prices
+            @media  (max-width: 767px)
+                {
+                display:none;
+
+            }//media-max-767
+
+        }//thead
+
+        .table-container{
+            tr{
+                border-bottom: 1px solid $color-bone;
+                height: 120px;
+                td{
+                    padding: 25px 0; 
+                    word-break: break-all;
+                    &.article{
+                        font-size:30px;
+                        line-height: 30px;
+
+                        img{
+                            height: 70px;
+                            @media  (max-width: 767px)
+                                {
+                                position: relative;
+                                top:50px;
+                            }
+
+                        }//img
+                        span{
+                            vertical-align:super;
+                            padding-left: 15px;
+                        }//span
+
+
+                        .details-description{
+                            margin:0px;
+                            font-size:15px;
+                            padding-left:75px;
+                            @media (min-width:992px)
+                                {
+                                display: none;
+                            }
+                        }//details-description
+
+                        .details-special{
+                            font-size:15px;
+                            padding-left:75px;
+                            color: $color-red;
+                            @media (min-width:992px)
+                                {
+                                display: none;
+                            }
+                        }//details-special
+
+                        .mobileItemDetails{
+                            width: 100%;
+                            @media (min-width:767px)
+                                {
+                                display: none;
+                            }
+                            .mobile-qty{
+                                width: 40%;
+                                position: relative;
+                                left: 15px;
+                                bottom: -10px;
+                                span{
+                                    margin: 1px;
+                                    width: 30px;
+                                    height: 30px;
+                                    color: $color-white;
+                                    background-color: $color-blue;
+                                    border-color: $color-bluelight;
+                                    display: inline-block;
+                                    font-weight: 400;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    border: 1px solid transparent;
+                                    white-space: nowrap;
+                                    padding: 1px 5px;
+                                    font-size: 20px;
+                                    line-height: 1.42857143;
+                                    border-radius: 3px;
+                                    -webkit-user-select: none;
+                                    vertical-align: top;
+                                    &.subItem{
+
+                                    }//subItem
+                                    &.showItem{
+                                        background-color: white;
+                                        border-color: $color-light-gray;
+                                        color: $color-dark-gray;
+                                    }//showItem
+                                    &.addItem{
+                                        background-color: $color-bluelight;
+                                    }//addItem
+
+                                }//span
+                            }//mobile-qty
+                            .mobile-price{
+                                float: right;
+                                width: 40%;
+                                position: relative;
+                                left: 25%;
+                                bottom: 20px;
+                            }//mobile-price
+                        }//mobileItemDetails
+
+                    }//article
+                    &.details{
+
+                        font-size:20px;
+                        line-height: 30px;
+                        vertical-align:middle;
+                        padding-right:20px;
+                        .details-description{
+
+                        }//details-description
+                        .details-special{
+                            color: $color-red;
+                        }//details-special
+                        @media  (max-width: 991px)
+                            {
+                            Display:none;
+                        }//media-max-901-min-768
+                    }//details
+                    &.pk-quantity{
+                        font-size:20px;
+                        line-height: 30px;
+                        vertical-align:middle;
+                        .qty{
+                            border-radius: 4px;
+                            width: 65px;
+                            height: 44px;
+                            outline: none;
+                        }
+                        @media  (max-width: 767px)
+                            {
+                            display:none;
+                        }//media-max-767
+                    }//pk-quantity
+                    &.prices{
+                        font-size:30px;
+                        line-height: 30px;
+                        vertical-align:middle;
+                        .remove-item{
+                            width: 4%;
+                            float: right;
+                            padding-top: 6px;
+                            padding-right: 22px;
+                            padding-left: 4px;
+                            text-align: right;
+                            display: inline-block;
+                            width: 34px;
+                            font-size: 19px;
+                            line-height: 26px;
+                            text-align: right;
+                            background: $color-gray;
+                            border-radius: 4px;
+
+                        }//remove-item
+                        span{
+                            @media  (max-width: 767px)
+                                {
+                                display:none;
+                            }
+                        }
+                    }//prices  
+                }//td
+                .mobileItemDetails{
+
+                }
+            }//tr
+
+        }//table-container
+    }//shopping-card-list
+}
+
+.voucherInput{    
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 0;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid $color-gray-01;
+    background-color: $color-gray-02;
+    height: 44px;
+    margin-bottom: 10px;
+    color: $color-dark;
+    width: 100%;
+    font-size: 20px;
+    font-family: Roboto Condensed,sans-serif;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    box-sizing: border-box;
+    padding: 0 0 0 12px;
+}//voucherInput
+/*.voucherSubmit{
+    display: inline-block;
+    float: left;
+    height: 50px; 
+    width: 29%;
+}//voucherSubmit*/
+.voucherBtn{
+    height: 44px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid $color-orange;
+    background-color: $color-orange;
+    color: $color-white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}//voucherBtn
+
+
+//--------------------------------------------------
+//  Checkout section 
+.table>tbody>tr>td{
+    border: none;
+    border-top: none;
+    border: 0;
+}
+.checkout-summery{
+    tr{
+        color: $color-gray-03;
+        font-size: 20px;
+        &.oneTimeCharge{
+
+            border-b
+            .textTitle{}//textTitle
+            .amount{ text-align: right;}//amount
+        }//oneTimeCharge
+        &.monthlyCharge{
+
+            border-bottom: 1px solid $color-bone;
+            .textTitle{}//textTitle
+            .amount{text-align: right;}//amount
+        }//monthlyCharge
+        &.subtotal{
+            font-weight: 700;
+            color:$color-dark;
+            .textTitle{}//textTitle
+            .amount{text-align: right;}//amount
+        }//subtotal
+        &.shipping{
+            border-bottom: 2px solid $color-bone;
+            .textTitle{}//textTitle
+            .amount{text-align: right;}//amount
+        }//shipping
+        &.total{
+            font-size:30px;
+            line-heigh:43px;
+            color:$color-dark;
+            .textTitle{}//textTitle
+            .amount{text-align: right;}//amount
+        }//total
+        &.vat{
+            font-size:14px;
+            line-heigh:20px;
+            td{
+                text-align: right;
+            }
+            .textTitle{}//textTitle
+            .amount{text-align: right; }//amount
+        }//vat
+
+    }
+
+}//checkout-summery
+
+.checkout-btn{
+    background-color: $color-primary;
+    height: 60px;
+    width:100%;
+    color: white;
+    display: inline-block;
+    padding-right:0px !important;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    @media (max-width:767px){
+        padding-right:0px;
+
+    }
+}//checkout-btn

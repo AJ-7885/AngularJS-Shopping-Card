@@ -1,9 +1,0 @@
-/*! Author : AJ @MavajSunCo  13-DEC-2016 */
-
-// Placeholder
-@mixin placeholder($color: $input-color-placeholder) {
-    &::-webkit-input-placeholder  { color: $color; } // Chrome and Safari
-    &::-moz-placeholder           { color: $color; } // Firefox 19+
-    &:-ms-input-placeholder       { color: $color; } // Internet Explorer 10+
-    &::placeholder       	  { color: $color; }
-}

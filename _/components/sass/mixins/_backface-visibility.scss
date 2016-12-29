@@ -1,7 +1,0 @@
-/*! Author : AJ @MavajSunCo  13-DEC-2016 */
-
-// Backface Visibility
-@mixin backface-visibility($visibility) {
-    -webkit-backface-visibility: $visibility;
-    backface-visibility: $visibility;
-}

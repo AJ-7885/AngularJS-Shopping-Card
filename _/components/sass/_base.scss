@@ -1,21 +1,48 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
-    Created on : Dec 26, 2016, 3:59:41 AM
-    Author     : master
+    Created on : Dec 28, 2016, 6:59:41 PM
+    Author     : AJ (@MavajSunCo) MavajSunCo.com
 */
 
 body {
   font-family: $font-family-primary;
-  /*font-size: 1.2rem;*/
-  /*line-height: 160%;*/
-  /*background: $paleyellow;*/
-  /*color: $darkblue;*/
 
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.42857143;
-    color: #333;
+    color: $color-dark-gray;
 }
+/*
+* , :after, :before {
+    box-sizing: border-box;
+}
+
+*{box-sizing: border-box;}*/
+
+
+
+.container {
+    /*background-color: #6f6f6f;*/
+    padding-left: 0!important;
+    padding-right: 0!important;
+    @media (min-width: 768px){
+        width: 750px;
+    }
+    @media (min-width: 992px){
+        width: 970px;
+    }
+    @media (min-width: 1200px){
+        width: 1170px;
+    }
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}//row-centered
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}//col-centered
+

@@ -1,7 +1,0 @@
-/*! Author : AJ @MavajSunCo  13-DEC-2016 */
-
-// Transform Scale
-@mixin transform-scale($x:1, $y:1) {
-    -webkit-transform: scale($x, $y);
-    transform: scale($x, $y);
-}
