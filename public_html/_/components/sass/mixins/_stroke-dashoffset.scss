@@ -1,7 +1,0 @@
-/*! Author : AJ @MavajSunCo  13-DEC-2016 */
-
-// Stroke Dashoffset
-@mixin stroke-dashoffset($stroke-dashoffset) {
-    -webkit-stroke-dashoffset: $stroke-dashoffset;
-    stroke-dashoffset: $stroke-dashoffset;
-}
