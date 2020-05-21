@@ -1,7 +1,7 @@
 
 /*! 
  Created on : Dec 28, 2016, 11:40:50 PM
- Author     : AJ (@MavajSunCo) MavajSunCo.com
+ Author     : https://github.com/AJ-7885
  */
 sfApp.factory('shoppingCardFactory', ['$http', function ($http) {
         var sdo = {

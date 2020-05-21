@@ -1,6 +1,6 @@
 /*! 
  Created on : Dec 28, 2016, 10:22:11 PM
- Author     : AJ (@MavajSunCo) MavajSunCo.com
+ Author     : https://github.com/AJ-7885
  */
 
 sfApp.controller("shoppingCardCtl", ['$scope', 'shoppingCardFactory', function ($scope, shoppingCardFactory) {
