@@ -1,17 +1,22 @@
 {
-    "name": "frontend-shopping-card-sample",
-    "version": "1.0.0",
-    "keywords": ["sample", "angularjs", "shopping", "card"],
-    "author": "https://github.com/AJ-7885",
-    "contributors": [],
-     "dependencies": {
+  "name": "frontend-shopping-card-sample",
+  "version": "1.0.0",
+  "keywords": [
+    "sample",
+    "angularjs",
+    "shopping",
+    "card"
+  ],
+  "author": "https://github.com/AJ-7885",
+  "contributors": [],
+  "dependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-compass": "~0.5.0",
     "grunt-contrib-uglify": "~0.2.2",
     "matchdep": "~0.1.2"
   },
-    "devDependencies": {
+  "devDependencies": {
     "grunt-contrib-compass": "^0.5.0"
   }
 }
