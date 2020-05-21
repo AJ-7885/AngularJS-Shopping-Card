@@ -2,7 +2,7 @@
     "name": "frontend-shopping-card-sample",
     "version": "1.0.0",
     "keywords": ["sample", "angularjs", "shopping", "card"],
-    "author": "MavajSunCo",
+    "author": "https://github.com/AJ-7885",
     "contributors": [],
      "dependencies": {
     "grunt": "~0.4.1",
